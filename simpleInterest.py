@@ -9,3 +9,4 @@ if __name__ == "__main__":
     t = int(sys.argv[3])
 
     print("Simple interest: ", simInt(p,i,t))
+    print(sys.argv[0])
