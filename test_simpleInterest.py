@@ -7,5 +7,5 @@ def test_simpleInt_zer():
     assert simInt(10000, 7, 0) == 0 
     
 def test_simpleInt_neg():
-    assert simInt(30000, 5, 2) == 7500
+    assert simInt(30000, 5, 2) == 3000
 
