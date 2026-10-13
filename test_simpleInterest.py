@@ -1,7 +1,7 @@
 from simpleInterest import simInt
 
 def test_simpleInt_pos():
-    assert simInt(20000, 9, 12) == 19200
+    assert simInt(20000, 9, 12) == 21600
 
 def test_simpleInt_zer():
     assert simInt(10000, 7, 0) == 0 
